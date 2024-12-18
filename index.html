@@ -650,7 +650,7 @@ parentnumber.addEventListener('input', function() {
         body: new FormData(form)
     })
     .then(response => {
-      
+      form.reset();
          window.location.href = './welcome.html'
 
     })
